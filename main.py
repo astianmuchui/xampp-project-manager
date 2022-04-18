@@ -1,3 +1,4 @@
+# Interface customised for windows
 from cgitb import text
 from genericpath import isdir, isfile
 from tkinter import *
