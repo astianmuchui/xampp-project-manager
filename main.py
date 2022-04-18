@@ -1,7 +1,7 @@
 from cgitb import text
 from genericpath import isdir, isfile
 from tkinter import *
-from PIL import Image,ImageTk
+
 from tkinter import font
 import webbrowser
 import os
@@ -12,10 +12,14 @@ class functions():
 
    def open_server(self):
       webbrowser.open("http://localhost/phpmyadmin")
+
    def open_folder(self):
       webbrowser.open("C:/xampp/htdocs/projects") 
+
    def browse(self):
       webbrowser.open("http://localhost/projects/"+self.dir)
+
+
 class App(functions):
 	def __init__(self, parent):
 		super(App, self).__init__()
