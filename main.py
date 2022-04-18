@@ -28,13 +28,13 @@ class App(functions):
 		self.parent = parent
 		
 
-		# labels config dict
+		
 		self.lbl_config = {
 			"relief": RIDGE,
 			"font":   ("Verdana", 12)
 		}
 
-		# entry config dict
+		
 		self.entry_config = {
 			"length": 15,
 			"ipady": 10
